@@ -13,5 +13,13 @@ fun main(args:Array<String>) {
     var personAge: Int = 22
     personAge = 3
 
-    println("Hello Master Coding Family")
+    // Type Conversion
+    var x: Int = 7
+    var y: Double = 3.14
+
+    // x = y // This will result in an ERROR unless we convert the type
+    x = y.toInt()
+    println(x)
+
+
 }
